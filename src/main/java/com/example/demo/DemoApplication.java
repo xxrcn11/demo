@@ -10,13 +10,14 @@ import java.util.Arrays;
 public class DemoApplication implements CommandLineRunner {
 
     public static final int SIZE = 10;
+
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
     }
 
     @Override
     public void run(String... args) throws Exception {
-        int [] array = new int[SIZE];
+        int[] array = new int[SIZE];
 
         for (int i = 0; i < SIZE; i++) {
             array[i] = generator();

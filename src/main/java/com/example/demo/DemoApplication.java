@@ -9,7 +9,7 @@ import java.util.Arrays;
 @SpringBootApplication
 public class DemoApplication implements CommandLineRunner {
 
-    public static final int SIZE = 10;
+    public static final int SIZE = 5;
 
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
